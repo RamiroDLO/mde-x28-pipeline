@@ -1,0 +1,31 @@
+{
+  "rdbms": {
+    "MSSQLNATIVE": {
+      "databaseName": "sql-database-dwh",
+      "instanceName": "",
+      "pluginId": "MSSQLNATIVE",
+      "usingDoubleDigit": false,
+      "usingIntegratedSecurity": false,
+      "accessType": 0,
+      "hostname": "sql-server-lyl6xtnc.database.windows.net",
+      "password": "Encrypted 2febefffe2ce9d9d68f0dac348884a7f9",
+      "pluginName": "MS SQL Server (Native)",
+      "port": "1433",
+      "attributes": {
+        "SUPPORTS_TIMESTAMP_DATA_TYPE": "Y",
+        "QUOTE_ALL_FIELDS": "N",
+        "EXTRA_OPTION_MSSQLNATIVE.authentication": "ActiveDirectoryPassword",
+        "SUPPORTS_BOOLEAN_DATA_TYPE": "Y",
+        "FORCE_IDENTIFIERS_TO_LOWERCASE": "N",
+        "PRESERVE_RESERVED_WORD_CASE": "Y",
+        "SQL_CONNECT": "",
+        "FORCE_IDENTIFIERS_TO_UPPERCASE": "N",
+        "PREFERRED_SCHEMA_NAME": "",
+        "EXTRA_OPTION_MSSQLNATIVE.encrypt": "false"
+      },
+      "manualUrl": "",
+      "username": "wadiezli@timgigeroutlook.onmicrosoft.com"
+    }
+  },
+  "name": "azure_sql"
+}
