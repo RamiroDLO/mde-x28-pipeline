@@ -54,7 +54,7 @@
     c.Kienbaum_ID,
     c.Firma,
     f.[function] AS mcg_function,
-    CEILING(DATEDIFF(day, j.created, j.lastseen) / 7.0) AS weeks_open
+    CEILING(DATEDIFF(day, j.created, '2020-07-08') / 7.0) AS weeks_open
 FROM stg_x28_jobs j
 LEFT JOIN (
     SELECT cmp_id, Kienbaum_ID, Firma
